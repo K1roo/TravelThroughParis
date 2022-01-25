@@ -1,0 +1,327 @@
+
+  <!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: none;
+
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: %;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: brown ;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+body {
+  background-image: url("as1.jpg"); 
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Restaurant</h1>
+  <p>On va vous presenter ici tout les restaurents connu de Paris .</p>
+</div>
+
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2></h2>
+      <h2>NESO (Paris 9) </h2>
+      <h5></h5>
+	   <img src="neso.jpg">
+      <p>Des tatouages, des fermentations et distillations en tous genres, et surtout du goût, du goût et du goût. Bienvenue dans l'univers de Guillaume Sanchez, dans son restaurant NESO , A l'intérieur, même topo. Sobriété et élégance. Les tables sont grandes et très espacées, tout est pensé pour un confort maximum.
+Au programme ? Un menu dégustation en 7 services, seul le 6ème plat s'offre à un choix cruel : Lieu jaune ikijimé ou Agneau de la ferme de Clavisy. C'est décidé, j'ai choisi, en route pour l'aventure !</p>
+	   <a href=" https://www.google.com/maps/place/NESO/@48.876063,2.3455323,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66f31ef32ae85:0x5ae29b862d806b43!8m2!3d48.876063!4d2.347721
+   " title="">Plus d'information </a>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  <div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2></h2>
+      <h2>Sourire (Paris 13)  </h2>
+      <h5></h5>
+	   <img src="sous.jpg">
+      <p>A l'intérieur, la déco est particulièrement soignée : du bleu, du blanc et de l'or avec un mobilier moderne et confortable. On se place ici clairement dans un établissement à vocation gastronomique. Mais ce qui m'avait plu l'an passé, c'était surtout ce menu déjeuner dingo à 30 euros.
+
+Fi de ce bonheur, à présent il faut rajouter 4 euros ! Tout augmente ma bonne dame ! Pour ce prix-là, on a le choix entre 3 entrées, 3 plats et 3 desserts avec des ingrédients variés tels que des girolles, du melon, du homard (comptez 10 euros en sus) , du cabillaud de Roscoff, une bavette black angus ou encore des noisettes du piémont ou une poularde de Culoiseau. De beaux produits donc au programme Qui dit restaurant gastronomique, dit mises en bouche ! Ici une petite tartine de thon blanc frais mariné et laqué au gingembre et soja et une mini mousse champignon chorizo. Ce démarrage annonce le meilleur par la suite : on sent des goûts francs et subtiles, toutes les papilles vont être mobilisées pendant ce repas, c'est sûr !</p>
+	   <a href=" https://www.google.com/maps/place/Sourire/@48.837196,2.3398444,17z/data=!3m1!4b1!4m5!3m4!1s0x47e671c0171b6433:0xf84adc3b4abf57bb!8m2!3d48.837196!4d2.3420331
+   " title="">Plus d'information </a>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  <div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2></h2>
+      <h2>L'Innocence (Paris 9) </h2>
+      <h5></h5>
+	   <img src="ino.jpg">
+      <p>A l'intérieur, une dizaine de tables un peu serrées se dressent devant la cuisine complètement ouverte où l'équipe d'Anne Legrand travaille d'arrache pied. La déco, sobre et élégante ne brille pas par son originalité, mais s'avère plutôt sombre. L'important ici, c'est dans l'assiette que ça se passe !
+
+Un menu surprise à 30 euros (entrée plat dessert) servi que le vendredi midi se révèle une incroyablement bonne affaire. </p>
+	   <a href=" http://www.linnocence.fr/
+   " title="">Plus d'information </a>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  <div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2></h2>
+      <h2>Le 975 (Paris 17)  </h2>
+      <h5></h5>
+	   <img src="res95.jpg">
+      <p>Dans le 17ème arrondissement, la façade tout en lambris de ce restaurant d'angle ne passe pas inaperçu. Mi-chalet, mi-construction branchée façon palais de Tokyo. C'est étonnant ! A l'intérieur, c'est pareil. Le la salle est pour le moins biscornue. On rentre, et on tombe sur la cuisine comptoir où le chef Taiki Tamao s'affaire. Plafond en aggloméré, tuyauterie apparente, ampoules design et photos modernes au mur. L'ambiance est lumineuse, calme et surtout, pas de musique ! Alleluïa !
+
+Au menu de cette table qui fait déjà salle comble (réservation obligatoire), un menu dégustation à 39 euros pour 5 plats ou une formule du jour à 17 euros qui inclut une amuse-bouche, un plat du jour et un café et une gourmandise sucrée. Ca fleure bon la bonne affaire ! Lotte, pintade, girolles, seiche, magret ou échine de cochon, dans des entrées qui oscillent de 9 à 13 euros et des plats qui vont de 19 à 24 euros. Ce sera le grand chelem pour ce midi ! C'est la fête ! </p>
+	   <a href="http://www.le-975.com/
+   " title="">Plus d'information </a>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2></h2>
+      <h2>BOULOM (Paris 18) </h2>
+      <h5></h5>
+	   <img src="blou.jpg">
+      <p>Imaginez un endroit paisible, où tout ce que vous voyez se mange, et à volonté !! Non, ce n'est pas un buffet presse de Disneyland, mais une adresse où il faut payer (mais prix légers le midi!). Et le moins que l'on puisse dire de cet endroit pas comme les autres, c'est qu'on en a pour son argent ! Plongée dans l'antre des outre-mangeurs gourmets ! On entre par une belle boulangerie. Arrivé tôt pour s'assurer d'une place et d'un buffet complet, on m'installe vite après avoir fait un choix de pain parmi la belle sélection de variétés anciennes. Bonne surprise, la salle - grande - ne propose pas que de grandes tables d'hôtes, mais aussi des tables simples ! La déco est fraîche et sympathique. On nous fait la visite des lieux et nous explique qu'on fait ici comme chez nous, seuls "les pieds sur la tables" ne sont pas autorisés !
+
+Le buffet des entrées, charcuteries, fruits de mer et desserts occupent la position centrale de la salle. Au fond un coin fromage et à côté, un.... barbecue, oui, oui, un barbecue ! De l'autre côté une cuisine où s'affaire une brigade pour préparer des plats chauds.</p>
+	   <a href="https://www.boulom.net/ " title="">Plus d'information </a>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2></h2>
+      <h2> Korus  </h2>
+      <h5></h5>
+	   <img src="kro.jpg">
+      <p>A l'intérieur, murs en briques et parquet au sol. Un grand comptoir accueille les visiteurs. C'est d'ailleurs là que je m'installe. Ne vous attendez pas à voir le chef à l'oeuvre puisqu'il officie dans une cuisine fermée, derrière. L'atmosphère est agréable, même si la musique (du rock) est un peu forte. Mais il faut bien mettre un peu d'ambiance, une seule table est occupée à mon arrivée. Alors comment se compose ce menu magique ? De 2 entrées et de 2 plats au choix. Ce midi-là, un seul dessert est proposé (ou café). Mais, on sent que le chef en a sous la pédale, puisque deux autres plats figurent au menu, mais avec de spectaculaires suppléments : +23 euros pour le pigeon et +40 euros (!) pour le homard bleu ! Les produits de luxe ont un certain prix d'autant qu'ici la recherche fine de fournisseurs d'exception fait partie de l'ADN de la maison.</p>
+	   <a href=" http://restaurantkorus.com/" title="">Plus d'information </a>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2></h2>
+      <h2>Adria (Paris 12)  </h2>
+      <h5></h5>
+	   <img src="neso.jpg">
+      <p>Dans la rue de Charenton, rien ne laisse penser que cette façade sombre cache un restaurant. Pas de terrasse ni même d'indications très visibles. Tout juste une petite feuille accrochée avec un bout de scotch qui présente le menu du midi. Il faut avoir entendu parler de l'affaire pour s'y rendre visiblement ! A l'intérieur, la déco n'est pas des plus soignées dans cette petite salle toute en longueur. D'ailleurs des tables s'entassent avec des cartons en vitrine. Adria n'espère pas attirer sa clientèle grâce à ça visiblement. [EDIT : en fait Adria va installer une terrasse très vite d'où le bazar!]
+
+Mais ça marche, à peine 12h30 que ce mardi midi la totalité des tables a trouvé preneur. Il faut dire que ce resto a de sérieux atouts en sa faveur.
+
+Le menu déjeuner (22 euros entrée plat dessert) laisse le choix entre 3 entrées, 2 plats et 2 desserts. Les produits méditerranéens sont à l'honneur : sardines, poulpe, aubergines... </p>
+	   <a href=" http://www.restaurant-adria.fr/
+   " title="">Plus d'information </a>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2></h2>
+      <h2>Fulgurances (Paris 11) </h2>
+      <h5></h5>
+	   <img src="ful.jpg">
+      <p>Le concept même de Fulgurances, en accueillant des chefs résidents l'espace de quelques mois, oblige à y venir et revenir ! Lors de ma dernière visite, Sébastien Myers oeuvrait aux fourneaux. Je me souviens encore avec émotion de ce plat de mulet exceptionnel.
+
+La barre était donc haute pour ne pas me décevoir. Cette fois-ci, c'est Raphaël Calisto qui se trouve aux fourneaux de la cuisine ouverte. Portugais d'origine, il a fait ses armes en Belgique.
+
+La formule reste la même, à un détail près : le prix ! Dans la série du "tout augmente ma bonne dame", le menu à 24 euros est passé à... 25! ça reste raisonnable, et plus modéré que chez Sourire ou au Servan.
+
+Deux entrées, Deux plats au choix et un dessert unique.</p>
+	   <a href="http://fulgurances.com/
+   " title="">Plus d'information </a>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2></h2>
+      <h2>Jouvence (Paris 12)  </h2>
+      <h5></h5>
+	   <img src="jou.jpg">
+      <p>Jouvence jouit d'une belle réputation. Tous les guides et sites gastronomiques y vont de leurs petits ou grands qualificatifs pour décrire cette table. Passage obligé donc pour tout bec fin qui se respecte !
+
+Coincé entre deux commerces populaires, cette ancienne pharmacie intrigue. Son air d'un autre âge m'a fait penser à Harry Potter. Quelques tables sur le trottoir, des bouteilles vides en vitrine, c'est sûr, c'est bien un bistrot français ! A l'intérieur la petite salle ne rompt pas le charme, bien au contraire : joli comptoir en marbre, boiseries fines un peu partout, belle trancheuse, bouteilles de-ci de-là, jolie banquette moelleuse et magnifique carrelage au sol. En guise de notes modernes, les petits globes lumineux suspendus au plafond restent discrets.
+
+La clientèle se presse le midi pour profiter d'un menu complet à 24 euros, mais une carte aux prix raisonnables est aussi disponible (entrées 7-11 euros, plats 22-29 euros et desserts 6-9 euros). Pour une dégustation en 5 services il faut débourser 55 euros. </p>
+	   <a href=" http://www.jouvence.paris/
+   " title="">Plus d'information </a>
+    </div>
+  
+  
+</body>	 
+</html>
+
